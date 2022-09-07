@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35C2193CF59C16D302D9AFDB /* Pods_ContactListWithSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272707D3EDDDC98A9413564F /* Pods_ContactListWithSQLite.framework */; };
 		E8B431CE28C76AA800BCF0C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431CD28C76AA800BCF0C3 /* AppDelegate.swift */; };
 		E8B431D028C76AA800BCF0C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431CF28C76AA800BCF0C3 /* SceneDelegate.swift */; };
-		E8B431D228C76AA800BCF0C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431D128C76AA800BCF0C3 /* ViewController.swift */; };
+		E8B431D228C76AA800BCF0C3 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431D128C76AA800BCF0C3 /* ContactDetailsViewController.swift */; };
 		E8B431D528C76AA800BCF0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B431D328C76AA800BCF0C3 /* Main.storyboard */; };
 		E8B431D728C76AA800BCF0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B431D628C76AA800BCF0C3 /* Assets.xcassets */; };
 		E8B431DA28C76AA800BCF0C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B431D828C76AA800BCF0C3 /* LaunchScreen.storyboard */; };
+		E8B431E228C7760900BCF0C3 /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431E128C7760900BCF0C3 /* AssemblyModuleBuilder.swift */; };
+		E8B431E428C7760F00BCF0C3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431E328C7760F00BCF0C3 /* Router.swift */; };
+		E8B431E728C779C300BCF0C3 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431E628C779C300BCF0C3 /* UIImageView+.swift */; };
+		E8B431E928C77A4600BCF0C3 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431E828C77A4600BCF0C3 /* UIViewController+.swift */; };
+		E8B431EB28C77B4000BCF0C3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431EA28C77B4000BCF0C3 /* Contact.swift */; };
+		E8B431F228C77C1700BCF0C3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431F128C77C1700BCF0C3 /* Storyboarded.swift */; };
+		E8B431F428C77D5B00BCF0C3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431F328C77D5B00BCF0C3 /* UIColor+.swift */; };
+		E8B431F628C77FE900BCF0C3 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431F528C77FE900BCF0C3 /* SQLiteDatabase.swift */; };
+		E8B431F828C780DB00BCF0C3 /* SQLiteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431F728C780DB00BCF0C3 /* SQLiteCommands.swift */; };
+		E8B431FB28C78C8700BCF0C3 /* ContactDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B431FA28C78C8700BCF0C3 /* ContactDetailsViewModel.swift */; };
+		E8EDDEB228C8A7B9004C5416 /* ContactListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDEB128C8A7B9004C5416 /* ContactListsTableViewController.swift */; };
+		E8EDDEB428C8AC9F004C5416 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDEB328C8AC9E004C5416 /* ContactTableViewCell.swift */; };
+		E8EDDEB628C8AE9F004C5416 /* ContactsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EDDEB528C8AE9F004C5416 /* ContactsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272707D3EDDDC98A9413564F /* Pods_ContactListWithSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactListWithSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DDCBB1C597874E743D7BFD /* Pods-ContactListWithSQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListWithSQLite.release.xcconfig"; path = "Target Support Files/Pods-ContactListWithSQLite/Pods-ContactListWithSQLite.release.xcconfig"; sourceTree = "<group>"; };
+		D9B63945552FFF485042C580 /* Pods-ContactListWithSQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactListWithSQLite.debug.xcconfig"; path = "Target Support Files/Pods-ContactListWithSQLite/Pods-ContactListWithSQLite.debug.xcconfig"; sourceTree = "<group>"; };
 		E8B431CA28C76AA800BCF0C3 /* ContactListWithSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListWithSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B431CD28C76AA800BCF0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B431CF28C76AA800BCF0C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8B431D128C76AA800BCF0C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8B431D128C76AA800BCF0C3 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 		E8B431D428C76AA800BCF0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B431D628C76AA800BCF0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B431D928C76AA800BCF0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B431DB28C76AA800BCF0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B431E128C7760900BCF0C3 /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
+		E8B431E328C7760F00BCF0C3 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E8B431E628C779C300BCF0C3 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		E8B431E828C77A4600BCF0C3 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		E8B431EA28C77B4000BCF0C3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E8B431F128C77C1700BCF0C3 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		E8B431F328C77D5B00BCF0C3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E8B431F528C77FE900BCF0C3 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		E8B431F728C780DB00BCF0C3 /* SQLiteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCommands.swift; sourceTree = "<group>"; };
+		E8B431FA28C78C8700BCF0C3 /* ContactDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewModel.swift; sourceTree = "<group>"; };
+		E8EDDEB128C8A7B9004C5416 /* ContactListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListsTableViewController.swift; sourceTree = "<group>"; };
+		E8EDDEB328C8AC9E004C5416 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		E8EDDEB528C8AE9F004C5416 /* ContactsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C2193CF59C16D302D9AFDB /* Pods_ContactListWithSQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BFA09A3F2B0EFB51BA7AC06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272707D3EDDDC98A9413564F /* Pods_ContactListWithSQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B44B29E335DEB5C07569B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B63945552FFF485042C580 /* Pods-ContactListWithSQLite.debug.xcconfig */,
+				A9DDCBB1C597874E743D7BFD /* Pods-ContactListWithSQLite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E8B431C128C76AA800BCF0C3 = {
 			isa = PBXGroup;
 			children = (
 				E8B431CC28C76AA800BCF0C3 /* ContactListWithSQLite */,
 				E8B431CB28C76AA800BCF0C3 /* Products */,
+				45B44B29E335DEB5C07569B0 /* Pods */,
+				2BFA09A3F2B0EFB51BA7AC06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,124 @@
 		E8B431CC28C76AA800BCF0C3 /* ContactListWithSQLite */ = {
 			isa = PBXGroup;
 			children = (
-				E8B431CD28C76AA800BCF0C3 /* AppDelegate.swift */,
-				E8B431CF28C76AA800BCF0C3 /* SceneDelegate.swift */,
-				E8B431D128C76AA800BCF0C3 /* ViewController.swift */,
+				E8C103E928C7E50D00EC84A8 /* Resources */,
+				E8B431EF28C77B5F00BCF0C3 /* SQLiteDataSource */,
+				E8B431ED28C77B5300BCF0C3 /* Helpers */,
+				E8B431EC28C77B4300BCF0C3 /* Model */,
+				E8EDDEB728C8B640004C5416 /* ContactsListModule */,
+				E8EDDEB828C8B64E004C5416 /* ContactDetailsModule */,
+				E8B431E528C779B200BCF0C3 /* Extensions */,
+				E8B431F028C77C0E00BCF0C3 /* Protocols */,
+				E8B431D828C76AA800BCF0C3 /* LaunchScreen.storyboard */,
 				E8B431D328C76AA800BCF0C3 /* Main.storyboard */,
 				E8B431D628C76AA800BCF0C3 /* Assets.xcassets */,
-				E8B431D828C76AA800BCF0C3 /* LaunchScreen.storyboard */,
 				E8B431DB28C76AA800BCF0C3 /* Info.plist */,
 			);
 			path = ContactListWithSQLite;
+			sourceTree = "<group>";
+		};
+		E8B431E528C779B200BCF0C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431E628C779C300BCF0C3 /* UIImageView+.swift */,
+				E8B431E828C77A4600BCF0C3 /* UIViewController+.swift */,
+				E8B431F328C77D5B00BCF0C3 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8B431EC28C77B4300BCF0C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431EA28C77B4000BCF0C3 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8B431ED28C77B5300BCF0C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431E128C7760900BCF0C3 /* AssemblyModuleBuilder.swift */,
+				E8B431E328C7760F00BCF0C3 /* Router.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E8B431EF28C77B5F00BCF0C3 /* SQLiteDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431F528C77FE900BCF0C3 /* SQLiteDatabase.swift */,
+				E8B431F728C780DB00BCF0C3 /* SQLiteCommands.swift */,
+			);
+			path = SQLiteDataSource;
+			sourceTree = "<group>";
+		};
+		E8B431F028C77C0E00BCF0C3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431F128C77C1700BCF0C3 /* Storyboarded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E8C103E928C7E50D00EC84A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431CD28C76AA800BCF0C3 /* AppDelegate.swift */,
+				E8B431CF28C76AA800BCF0C3 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8EDDEB728C8B640004C5416 /* ContactsListModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDEBB28C8B672004C5416 /* View */,
+				E8EDDEBC28C8B675004C5416 /* ViewModel */,
+			);
+			path = ContactsListModule;
+			sourceTree = "<group>";
+		};
+		E8EDDEB828C8B64E004C5416 /* ContactDetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDEB928C8B667004C5416 /* View */,
+				E8EDDEBA28C8B66D004C5416 /* ViewModel */,
+			);
+			path = ContactDetailsModule;
+			sourceTree = "<group>";
+		};
+		E8EDDEB928C8B667004C5416 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431D128C76AA800BCF0C3 /* ContactDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8EDDEBA28C8B66D004C5416 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8B431FA28C78C8700BCF0C3 /* ContactDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E8EDDEBB28C8B672004C5416 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDEB128C8A7B9004C5416 /* ContactListsTableViewController.swift */,
+				E8EDDEB328C8AC9E004C5416 /* ContactTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8EDDEBC28C8B675004C5416 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E8EDDEB528C8AE9F004C5416 /* ContactsListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B431DE28C76AA800BCF0C3 /* Build configuration list for PBXNativeTarget "ContactListWithSQLite" */;
 			buildPhases = (
+				D739C401B928BA07CD2D80BE /* [CP] Check Pods Manifest.lock */,
 				E8B431C628C76AA800BCF0C3 /* Sources */,
 				E8B431C728C76AA800BCF0C3 /* Frameworks */,
 				E8B431C828C76AA800BCF0C3 /* Resources */,
+				B6D4D29061EAB2B6F847FBFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +294,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6D4D29061EAB2B6F847FBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactListWithSQLite/Pods-ContactListWithSQLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactListWithSQLite/Pods-ContactListWithSQLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactListWithSQLite/Pods-ContactListWithSQLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D739C401B928BA07CD2D80BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactListWithSQLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8B431C628C76AA800BCF0C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B431D228C76AA800BCF0C3 /* ViewController.swift in Sources */,
+				E8B431E928C77A4600BCF0C3 /* UIViewController+.swift in Sources */,
+				E8B431E728C779C300BCF0C3 /* UIImageView+.swift in Sources */,
+				E8EDDEB228C8A7B9004C5416 /* ContactListsTableViewController.swift in Sources */,
+				E8B431D228C76AA800BCF0C3 /* ContactDetailsViewController.swift in Sources */,
+				E8B431F828C780DB00BCF0C3 /* SQLiteCommands.swift in Sources */,
 				E8B431CE28C76AA800BCF0C3 /* AppDelegate.swift in Sources */,
+				E8EDDEB428C8AC9F004C5416 /* ContactTableViewCell.swift in Sources */,
+				E8B431E428C7760F00BCF0C3 /* Router.swift in Sources */,
+				E8B431F228C77C1700BCF0C3 /* Storyboarded.swift in Sources */,
 				E8B431D028C76AA800BCF0C3 /* SceneDelegate.swift in Sources */,
+				E8B431E228C7760900BCF0C3 /* AssemblyModuleBuilder.swift in Sources */,
+				E8B431FB28C78C8700BCF0C3 /* ContactDetailsViewModel.swift in Sources */,
+				E8B431F628C77FE900BCF0C3 /* SQLiteDatabase.swift in Sources */,
+				E8EDDEB628C8AE9F004C5416 /* ContactsListViewModel.swift in Sources */,
+				E8B431EB28C77B4000BCF0C3 /* Contact.swift in Sources */,
+				E8B431F428C77D5B00BCF0C3 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +498,7 @@
 		};
 		E8B431DF28C76AA800BCF0C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B63945552FFF485042C580 /* Pods-ContactListWithSQLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,9 +507,11 @@
 				DEVELOPMENT_TEAM = 66AH87SC7Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactListWithSQLite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contact List";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,12 +523,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E8B431E028C76AA800BCF0C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DDCBB1C597874E743D7BFD /* Pods-ContactListWithSQLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +538,11 @@
 				DEVELOPMENT_TEAM = 66AH87SC7Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactListWithSQLite/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Contact List";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
