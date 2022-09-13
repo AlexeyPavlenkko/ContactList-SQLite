@@ -1,6 +1,6 @@
 ## Info
 - Stack: UIKit, SQLite.
-- Description: Simple demo app for saving contacts(profile image, first/last name, phone number
+- Description: Simple demo app for saving contacts(profile image, first/last name, phone number)
 
 ## App showcase
 
