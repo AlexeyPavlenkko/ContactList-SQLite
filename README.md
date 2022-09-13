@@ -1,5 +1,6 @@
 ## Info
 - Stack: UIKit, SQLite.
+- Architecture & patterns: MVVM, Router, AssemblyBuilder
 - Description: Simple demo app for saving contacts(profile image, first/last name, phone number)
 
 ## App showcase
